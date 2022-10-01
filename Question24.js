@@ -10,3 +10,47 @@ if ("15" == a){
 
 console.log();
 
+let b = "Ahmed";
+console.log("I predict True");
+if ("Ahmed" == b){
+    console.log("Its True");
+} else {
+    console.log("Its False");
+}
+
+console.log();
+
+let c = "ahmed";
+console.log("I Predict true");
+if ("Ahmed".toLowerCase === c){//its false because we have not added brackets at the end of the function.
+    console.log("Its True");
+} else {
+    console.log("Its False");
+}
+
+console.log();
+
+let d = 24;
+console.log("I predict true");
+if (2 + "4" >= d){
+    console.log("Its true");
+}else {
+    console.log("Its False");
+}
+
+console.log();
+
+const myArray = [1, 2, 3, 4, 5];
+if (myArray.includes(5)){
+    console.log("It consists of 5");
+} else {
+    console.log("Does not exists.");
+}
+
+console.log();
+
+if (myArray.includes(7)){
+    console.log("It consists of 7");
+} else {
+    console.log("Does not exists.");
+}
